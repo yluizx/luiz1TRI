@@ -80,4 +80,6 @@ body {
 .rodape{
     background-color: black;
     text-align: center;
+    color: white;
+    font-size: 30px;
 }
