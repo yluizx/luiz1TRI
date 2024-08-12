@@ -92,4 +92,24 @@ body {
     }
 
 
-    
+    @media (MAX-width:600px){
+        .profissao-todos{
+            display:flex;
+            flex-direction:column;
+            align-itens:center;
+        }
+
+.profissao-div {
+    width:100%;
+    max-width:300px;
+    margin-10px0;
+}
+.profissao-div:nth-of-type(1){
+    (max-widht:768px){
+        .profissao-todos{
+            grid-template-dumns:1fr1fr;
+            gap:20px;
+        }
+    }
+}
+    }
